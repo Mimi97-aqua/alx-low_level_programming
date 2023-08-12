@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
- * This program demonstartes a 
- * simple c program that prints 
- * text to standard output using
- * the puts function.
+ * main - Entry point 
+ * 
+ * return: Always  0(Succes)
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
