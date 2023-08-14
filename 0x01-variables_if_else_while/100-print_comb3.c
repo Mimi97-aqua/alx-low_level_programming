@@ -1,33 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - main block
- * 
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i, j, k;
+	int d, p;
 
-	i = 0;
-
-	while (i < 100)
+	for (d = '0'; d < '9'; d++)
 	{
-		j = i % 10; 
-		k = i / 10;
-
-		if (k < j)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			putchar(k + '0');
-			putchar(j + '0');
-
-			if (i < 89)
+			if (p != d)
 			{
-				putchar(44);
-				putchar(32);
+				putchar(d);
+				putchar(p);
+
+				if (d == '8' && p == '9')
+					continue;
+
+				putchar(',');
+				putchar(' ');
 			}
 		}
-
-		i++;
 	}
 	putchar('\n');
 
