@@ -2,7 +2,7 @@
 
 /**
  * _abs - Entry point
- * Computes absolute value of an integer
+ * @a: Value to compute absolute value
  * Return: Always 0 (Success)
  */
 
