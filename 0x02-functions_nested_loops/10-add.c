@@ -5,7 +5,6 @@
  *
  * @x: first interger
  * @y: second integer
- * @sum: output of computation
  *
  * Return: sum
  */
