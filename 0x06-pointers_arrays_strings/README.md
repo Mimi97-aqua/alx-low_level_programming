@@ -30,6 +30,8 @@ For example, to use the `0-strcat.c` function, you can compile it with your main
 
 ```gcc -Wall -Werror -Wextra -pedantic 0-main.c 0-strcat.c -o strcat```
 
+Make sure to replace `0-main.c` with the name of your main program or the file where you want to use the function.
+
 ## Contributing
 
 Contributions to this repository are not welcome as this is a school exercise. 
