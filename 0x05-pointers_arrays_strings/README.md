@@ -14,6 +14,8 @@ This repository contains solutions for tasks related to pointers, arrays, and st
 - `7-puts_half.c`: Function that prints the second half of a string.
 - `8-print_array.c`: Function that prints elements of an array of integers.
 - `9-strcpy.c`: Function that copies a string.
+- `100-atoi.c`
+- `101-keygen.c`
 
 ## Usage
 
