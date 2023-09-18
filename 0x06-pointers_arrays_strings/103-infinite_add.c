@@ -7,7 +7,6 @@
  * @s: string to reverse
  * Return: pointer to the reversed string
  */
-
 char *reverse(char *s)
 {
 	size_t len = strlen(s);
@@ -20,7 +19,6 @@ char *reverse(char *s)
 		s[i] = s[len - 1 - i];
 		s[len - 1 - i] = temp;
 	}
-
 	return (s);
 }
 
@@ -32,7 +30,6 @@ char *reverse(char *s)
  * @size_r: The buffer size
  * Return: A pointer to the result
  */
-
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int len1 = strlen(n1);
@@ -69,4 +66,4 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	/* return the reversed result */
 	return (reverse(r));
-
+}
