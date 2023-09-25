@@ -1,11 +1,10 @@
-#ifndef PROTOTYPES_H
-#define PROTOTYPES_H
+#ifndef VARIADIC_FUNCTIONS_H
+#define VARIADIC_FUNCTIONS_H
 
 #include <stdarg.h>
 
 /**
  * struct print - struct for printing different types
- *
  * @param: format specifier
  * @f: function to print
  */
@@ -21,4 +20,4 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
-#endif /* PROTOTYPES_H */
+#endif /* VARIADIC_FUNCTIONS_H */
