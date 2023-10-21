@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * int_index - function that search for an integer
- *
+ i*
  * @array: Type int array pointer
  * @size: Type pointer size of the array
  * @cmp: Type pointer to the function compare values
@@ -20,8 +20,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 	for (x = 0; x < size; x++)
 	{
 	if (cmp(*(array + x)))
-			return (x);
+		return (x);
 	}
 
-	return(-1);
+	return (-1);
 }
