@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,24 +7,10 @@
 
 int get_endianness(void)
 {
-    unsigned int num = 1;
-    char *endian = (char *)&num;
+	unsigned int x = 1;
+	char *c;
 
-    return (*endian == 1);
-}
+	c = (char *)&x;
 
-int main(void)
-{
-    int n;
-
-    n = get_endianness();
-    if (n != 0)
-    {
-        printf("Little Endian\n");
-    }
-    else
-    {
-        printf("Big Endian\n");
-    }
-    return 0;
+	return ((int)*c);
 }
